@@ -1,4 +1,4 @@
-ResidenceSimpleClans
+SimpleClansResidence
 ====================
 
 This plugin is a bridge between [Residence](http://dev.bukkit.org/server-mods/residence/) and [SimpleClans](http://dev.bukkit.org/server-mods/simpleclans/).
