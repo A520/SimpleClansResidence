@@ -1,0 +1,7 @@
+name: SimpleClansResidence
+main: ru.obsidian_mc.toxuin.SimpleClansResidence
+version: 0.1.12
+author: toxuin
+description: Residence protection for SimpleClans
+
+depend: [Residence, SimpleClans]

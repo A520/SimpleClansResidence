@@ -60,8 +60,9 @@ public class SimpleClansResidence extends JavaPlugin implements Listener {
 			if (visitorClanPlayer==null) return;
 			
 			if (hostClanPlayer !=null && visitorClanPlayer != null && visitorClanPlayer.getClan().equals(hostClanPlayer.getClan())) {
-				event.override = true;
-				event.overridevalue = true;
+				//event.override = true;
+				//event.overridevalue = true;
+                                event.overrideCheck(true);
 			}
 			
 		} else if (event.getFlag().equals("use")) {
@@ -74,8 +75,9 @@ public class SimpleClansResidence extends JavaPlugin implements Listener {
 			if (visitorClanPlayer==null) return;
 			
 			if (hostClanPlayer !=null && visitorClanPlayer != null && visitorClanPlayer.getClan().equals(hostClanPlayer.getClan())) {
-				event.override = true;
-				event.overridevalue = true;
+				//event.override = true;
+				//event.overridevalue = true;
+                                event.overrideCheck(true);
 			}
 		} else if (event.getFlag().equals("move")) {
 			if (!event.getResidence().getPermissions().has("clanmove", false)) return;
@@ -87,8 +89,9 @@ public class SimpleClansResidence extends JavaPlugin implements Listener {
 			if (visitorClanPlayer==null) return;
 			
 			if (hostClanPlayer !=null && visitorClanPlayer != null && visitorClanPlayer.getClan().equals(hostClanPlayer.getClan())) {
-				event.override = true;
-				event.overridevalue = true;
+				//event.override = true;
+				//event.overridevalue = true;
+                                event.overrideCheck(true);
 			}
 			
 		} else if (event.getFlag().equals("container")) {
@@ -101,8 +104,9 @@ public class SimpleClansResidence extends JavaPlugin implements Listener {
 			if (visitorClanPlayer==null) return;
 			
 			if (hostClanPlayer !=null && visitorClanPlayer != null && visitorClanPlayer.getClan().equals(hostClanPlayer.getClan())) {
-				event.override = true;
-				event.overridevalue = true;
+				//event.override = true;
+				//event.overridevalue = true;
+                                event.overrideCheck(true);
 			}
 			
 		}
